@@ -1,0 +1,209 @@
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs
+$ cd example-app
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app
+$ git init
+Initialized empty Git repository in C:/xampp/htdocs/example-app/.git/
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .editorconfig
+        .env.example
+        .gitattributes
+        .gitignore
+        README.md
+        app/
+        artisan
+        bootstrap/
+        composer.json
+        composer.lock
+        config/
+        database/
+        package.json
+        phpunit.xml
+        public/
+        resources/
+        routes/
+        storage/
+        tests/
+        vite.config.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git add .
+warning: in the working copy of 'public/CSS/custom.css', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of 'resources/views/index.blade.php', CRLF will be replaced by LF the next time Git touches it
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .editorconfig
+        new file:   .env.example
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   README.md
+        new file:   app/Http/Controllers/Controller.php
+        new file:   app/Http/Controllers/StudentController.php
+        new file:   app/Models/Student.php
+        new file:   app/Models/User.php
+        new file:   app/Providers/AppServiceProvider.php
+        new file:   artisan
+        new file:   bootstrap/app.php
+        new file:   bootstrap/cache/.gitignore
+        new file:   bootstrap/providers.php
+        new file:   composer.json
+        new file:   composer.lock
+        new file:   config/app.php
+        new file:   config/auth.php
+        new file:   config/cache.php
+        new file:   config/database.php
+        new file:   config/filesystems.php
+        new file:   config/logging.php
+        new file:   config/mail.php
+        new file:   config/queue.php
+        new file:   config/services.php
+        new file:   config/session.php
+        new file:   database/.gitignore
+        new file:   database/factories/UserFactory.php
+        new file:   database/migrations/0001_01_01_000000_create_users_table.php
+        new file:   database/migrations/0001_01_01_000001_create_cache_table.php
+        new file:   database/migrations/0001_01_01_000002_create_jobs_table.php
+        new file:   database/migrations/2025_05_18_162444_create_students_table.php
+        new file:   database/seeders/DatabaseSeeder.php
+        new file:   package.json
+        new file:   phpunit.xml
+        new file:   public/.htaccess
+        new file:   public/CSS/custom.css
+        new file:   public/favicon.ico
+        new file:   public/index.php
+        new file:   public/robots.txt
+        new file:   resources/css/app.css
+        new file:   resources/js/app.js
+        new file:   resources/js/bootstrap.js
+        new file:   resources/views/index.blade.php
+        new file:   resources/views/welcome.blade.php
+        new file:   routes/console.php
+        new file:   routes/web.php
+        new file:   storage/app/.gitignore
+        new file:   storage/app/private/.gitignore
+        new file:   storage/app/public/.gitignore
+        new file:   storage/framework/.gitignore
+        new file:   storage/framework/cache/.gitignore
+        new file:   storage/framework/cache/data/.gitignore
+        new file:   storage/framework/sessions/.gitignore
+        new file:   storage/framework/testing/.gitignore
+        new file:   storage/framework/views/.gitignore
+        new file:   storage/logs/.gitignore
+        new file:   tests/Feature/ExampleTest.php
+        new file:   tests/TestCase.php
+        new file:   tests/Unit/ExampleTest.php
+        new file:   vite.config.js
+
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git commit -m "This is my first laravel project"
+[master (root-commit) 5f86982] This is my first laravel project
+ 61 files changed, 10300 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .env.example
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 app/Http/Controllers/Controller.php
+ create mode 100644 app/Http/Controllers/StudentController.php
+ create mode 100644 app/Models/Student.php
+ create mode 100644 app/Models/User.php
+ create mode 100644 app/Providers/AppServiceProvider.php
+ create mode 100644 artisan
+ create mode 100644 bootstrap/app.php
+ create mode 100644 bootstrap/cache/.gitignore
+ create mode 100644 bootstrap/providers.php
+ create mode 100644 composer.json
+ create mode 100644 composer.lock
+ create mode 100644 config/app.php
+ create mode 100644 config/auth.php
+ create mode 100644 config/cache.php
+ create mode 100644 config/database.php
+ create mode 100644 config/filesystems.php
+ create mode 100644 config/logging.php
+ create mode 100644 config/mail.php
+ create mode 100644 config/queue.php
+ create mode 100644 config/services.php
+ create mode 100644 config/session.php
+ create mode 100644 database/.gitignore
+ create mode 100644 database/factories/UserFactory.php
+ create mode 100644 database/migrations/0001_01_01_000000_create_users_table.php
+ create mode 100644 database/migrations/0001_01_01_000001_create_cache_table.php
+ create mode 100644 database/migrations/0001_01_01_000002_create_jobs_table.php
+ create mode 100644 database/migrations/2025_05_18_162444_create_students_table.php
+ create mode 100644 database/seeders/DatabaseSeeder.php
+ create mode 100644 package.json
+ create mode 100644 phpunit.xml
+ create mode 100644 public/.htaccess
+ create mode 100644 public/CSS/custom.css
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/index.php
+ create mode 100644 public/robots.txt
+ create mode 100644 resources/css/app.css
+ create mode 100644 resources/js/app.js
+ create mode 100644 resources/js/bootstrap.js
+ create mode 100644 resources/views/index.blade.php
+ create mode 100644 resources/views/welcome.blade.php
+ create mode 100644 routes/console.php
+ create mode 100644 routes/web.php
+ create mode 100644 storage/app/.gitignore
+ create mode 100644 storage/app/private/.gitignore
+ create mode 100644 storage/app/public/.gitignore
+ create mode 100644 storage/framework/.gitignore
+ create mode 100644 storage/framework/cache/.gitignore
+ create mode 100644 storage/framework/cache/data/.gitignore
+ create mode 100644 storage/framework/sessions/.gitignore
+ create mode 100644 storage/framework/testing/.gitignore
+ create mode 100644 storage/framework/views/.gitignore
+ create mode 100644 storage/logs/.gitignore
+ create mode 100644 tests/Feature/ExampleTest.php
+ create mode 100644 tests/TestCase.php
+ create mode 100644 tests/Unit/ExampleTest.php
+ create mode 100644 vite.config.js
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git remote add origin https://github.com/Eshika2/Laravel-Basics.git
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git remote
+origin
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git remote -v
+origin  https://github.com/Eshika2/Laravel-Basics.git (fetch)
+origin  https://github.com/Eshika2/Laravel-Basics.git (push)
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (master)
+$ git branch -M main
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (main)
+$ git push -u origin main
+To https://github.com/Eshika2/Laravel-Basics.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Eshika2/Laravel-Basics.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Eshika Dissanayake@LAPTOP-STVQH3IV MINGW64 /c/xampp/htdocs/example-app (main)
+$
