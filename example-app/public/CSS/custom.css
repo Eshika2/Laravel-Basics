@@ -1,0 +1,14 @@
+.body{
+    background-color: aqua;
+}
+.row{
+    background-color: azure;
+    height: auto;
+    width: 1000px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 150px;
+}
+.studentAdd{
+    padding: 70px;
+}
